@@ -1,0 +1,15 @@
+.home-container {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  padding: 50px;
+}
+.carousel-container {
+  width: 60%;
+  /* max-width: 800px; */
+  margin: 0 auto;
+}
+strong{
+    font-size: 25px;
+    font-weight: 800;
+}

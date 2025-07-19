@@ -1,0 +1,33 @@
+/* src/components/CategoryNavbar.css */
+.category-navbar {
+  display: flex;
+  overflow-x: auto;
+  padding: 1rem;
+  gap: 10rem;
+  scrollbar-width: none; /* Firefox */
+}
+
+.category-navbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.category-card {
+  flex: 0 0 auto;
+  width: 120px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.category-image {
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.category-name {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
